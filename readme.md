@@ -1,3 +1,18 @@
+_we **forked** this repo to change the default facingMode from 'user' to 'env'_
+
+This is part of a web API: https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackConstraints/facingMode
+
+We're not the only ones with the issue: https://github.com/ionic-team/pwa-elements/issues/70
+
+For upgrades, just rebase the local commits off the version tag. Then
+re-build and package tarball to locally commit in the dependent project.
+
+```
+npm run build
+npm pack
+```
+
+
 # Ionic Elements for Progressive Web Apps
 
 This project is a growing collection of pre-built UI experiences for Web APIs such

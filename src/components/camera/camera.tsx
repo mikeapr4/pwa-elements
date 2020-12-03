@@ -17,7 +17,7 @@ export class CameraPWA {
 
   @Prop({ context: 'isServer' }) private isServer: boolean;
 
-  @Prop() facingMode: string = 'user';
+  @Prop() facingMode: string = 'environment';
 
   @Prop() handlePhoto: (photo: Blob) => void;
   @Prop() handleNoDeviceError: (e?: any) => void;
